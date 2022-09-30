@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="84dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809">
+
+        <Button
+            android:id="@+id/zeroID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="zeroFun"
+            android:text="0"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/equalID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#775F5F"
+            android:onClick="equalFun"
+            android:text="="
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="84dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656">
+
+        <Button
+            android:id="@+id/oneID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="oneFun"
+            android:text="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/twoID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="twoFun"
+            android:text="2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/threeID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="threeFun"
+            android:text="3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/plusID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:onClick="plusFun"
+            android:text="+"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="84dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513">
+
+        <Button
+            android:id="@+id/fourID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="fourFun"
+            android:text="4"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/fiveID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="fiveFun"
+            android:text="5"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/sixID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="sixFun"
+            android:text="6"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/minusID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:onClick="minusFun"
+            android:text="-"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resID"
+        android:layout_width="321dp"
+        android:layout_height="77dp"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="381dp"
+        android:layout_height="89dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2">
+
+        <Button
+            android:id="@+id/acID"
+            android:layout_width="163dp"
+            android:layout_height="81dp"
+            android:backgroundTint="#785E5E"
+            android:onClick="acFun"
+            android:text="AC"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/perID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:onClick="perFun"
+            android:text="%"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/divID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:onClick="divFun"
+            android:text="/"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="382dp"
+        android:layout_height="84dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36">
+
+        <Button
+            android:id="@+id/sevenID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="sevenFun"
+            android:text="7"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/eightID"
+
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="eightFun"
+            android:text="8"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/nineID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:backgroundTint="#101010"
+            android:onClick="nineFun"
+            android:text="9"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/mulID"
+            android:layout_width="121dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:onClick="mulFun"
+            android:text="X"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
